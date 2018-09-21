@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="selenium1.NewTest1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- selenium1.NewTest1 -->
+      <class name="Salus.salus.backOffice.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Salus.salus.backOffice.NewTest -->
+      <class name="selenium2.NewTest2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Dashboard"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- selenium2.NewTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="218196" started-at="2018-09-21T12:41:58Z" finished-at="2018-09-21T12:45:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78113" started-at="2018-09-21T12:41:58Z" finished-at="2018-09-21T12:43:16Z">
+      <class name="Salus.salus.backOffice.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="1063" started-at="2018-09-21T18:11:58Z" finished-at="2018-09-21T18:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="checkFields()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="checkFields" duration-ms="64" started-at="2018-09-21T18:11:59Z" finished-at="2018-09-21T18:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFields -->
+        <test-method status="PASS" signature="erifyForgot_Password()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="erifyForgot_Password" duration-ms="24398" started-at="2018-09-21T18:11:59Z" finished-at="2018-09-21T18:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erifyForgot_Password -->
+        <test-method status="PASS" signature="profieName()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="profieName" duration-ms="28827" started-at="2018-09-21T18:12:24Z" finished-at="2018-09-21T18:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profieName -->
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="testUrl" duration-ms="10943" started-at="2018-09-21T18:12:52Z" finished-at="2018-09-21T18:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="test_Login" duration-ms="12670" started-at="2018-09-21T18:13:03Z" finished-at="2018-09-21T18:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Salus.salus.backOffice.NewTest@59fa1d9b]" name="afterClass" is-config="true" duration-ms="129" started-at="2018-09-21T18:13:16Z" finished-at="2018-09-21T18:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Salus.salus.backOffice.NewTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="20366" started-at="2018-09-21T12:43:16Z" finished-at="2018-09-21T12:43:37Z">
+      <class name="selenium1.NewTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium1.NewTest1@239963d8]" name="beforeClass" is-config="true" duration-ms="1511" started-at="2018-09-21T18:13:16Z" finished-at="2018-09-21T18:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginUsingWrongCredentials()[pri:0, instance:selenium1.NewTest1@239963d8]" name="loginUsingWrongCredentials" duration-ms="17379" started-at="2018-09-21T18:13:18Z" finished-at="2018-09-21T18:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingWrongCredentials -->
+        <test-method status="PASS" signature="verifyEmailId()[pri:0, instance:selenium1.NewTest1@239963d8]" name="verifyEmailId" duration-ms="869" started-at="2018-09-21T18:13:35Z" finished-at="2018-09-21T18:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailId -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium1.NewTest1@239963d8]" name="afterClass" is-config="true" duration-ms="603" started-at="2018-09-21T18:13:36Z" finished-at="2018-09-21T18:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium1.NewTest1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="119671" started-at="2018-09-21T12:43:37Z" finished-at="2018-09-21T12:45:36Z">
+      <class name="selenium2.NewTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium2.NewTest2@4f7d0008]" name="beforeClass" is-config="true" duration-ms="352" started-at="2018-09-21T18:13:37Z" finished-at="2018-09-21T18:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Dashboard()[pri:0, instance:selenium2.NewTest2@4f7d0008]" name="Dashboard" duration-ms="119240" started-at="2018-09-21T18:13:37Z" finished-at="2018-09-21T18:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium2.NewTest2@4f7d0008]" name="afterClass" is-config="true" duration-ms="76" started-at="2018-09-21T18:15:36Z" finished-at="2018-09-21T18:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium2.NewTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
