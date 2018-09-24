@@ -12,7 +12,8 @@ public class NewTest2 {
 	WebDriver driver;
   @BeforeClass
   public void beforeClass() {
-	  System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+	 // System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+	  System.setProperty("webdriver.chrome.driver","/Users/Shared/Jenkins/Home/chromedriver");
 		 driver = new ChromeDriver();
   }
 
